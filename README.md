@@ -11,5 +11,7 @@ Implicit dependencies are the primary way that Terraform understands the relatio
 - Add the following config to `main.tf`.
 - Run `terraform get` to install the module.
 
+<img width="774" alt="Screen Shot 2565-01-28 at 08 14 08" src="https://user-images.githubusercontent.com/33342822/151469763-6d88cea2-edaa-407e-bf95-ad7bb612ab3e.png">
+
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/dependencies
