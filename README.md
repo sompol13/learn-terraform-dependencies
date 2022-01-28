@@ -6,5 +6,10 @@ In this tutorial, you will learn about dependencies between resources and module
 - `terraform init`
 - `terraform apply`
 
+### Manage explicit dependencies
+Implicit dependencies are the primary way that Terraform understands the relationships between your resources. Sometimes there are dependencies between resources that are not visible to Terraform, however. The `depends_on` argument is accepted by any resource or module block and accepts a list of resources to create explicit dependencies for.
+- Add the following config to `main.tf`.
+- Run `terraform get` to install the module.
+
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/dependencies
